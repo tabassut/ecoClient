@@ -1,3 +1,4 @@
+import "./utils/leafletFix";
 import { BrowserRouter } from "react-router";
 import { CssBaseline } from "@mui/material";
 
