@@ -102,7 +102,7 @@ export const SavedRoutes = () => {
       </Card>
 
       <Typography variant="h4" fontWeight={700} mb={3}>
-        Trip History
+        Saved Routes
       </Typography>
 
       <Grid container spacing={3}>

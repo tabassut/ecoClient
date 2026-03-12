@@ -45,7 +45,7 @@ import { useDebounce } from "../../hooks";
 import backendInstance from "../../utils/api-services/backendInstance";
 
 const vehicleIconMapBottom: Record<string, React.ReactNode> = {
-  car: <DirectionsCarIcon fontSize="large" />,
+  car: <DirectionsCarIcon fontSize="large"   sx={{ color: "black" }}/>,
   bike: <DirectionsBikeIcon fontSize="large" sx={{ color: "black" }} />,
   walk: <DirectionsWalkIcon fontSize="large" sx={{ color: "black" }} />,
 };
